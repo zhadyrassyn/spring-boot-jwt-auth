@@ -1,8 +1,8 @@
 INSERT INTO ROLE VALUES(1, 'ADMIN');
 INSERT INTO ROLE VALUES(2, 'USER');
 
-INSERT INTO USER VALUES (1, 'daniyar', '123', 'Daniyar', 'Nemchenkov' );
-INSERT INTO USER VALUES (2, 'daniil', '123', 'Daniil', 'Varshinov' );
+INSERT INTO USER VALUES (1, 'daniyar', '$2a$10$YsgqaBJVNZ7PrB6pL4X97uYX7AZUyNR6dae.Q5FQd/ZCbAj7V2A.m', 'Daniyar', 'Nemchenkov' );
+INSERT INTO USER VALUES (2, 'daniil', '$2a$10$YsgqaBJVNZ7PrB6pL4X97uYX7AZUyNR6dae.Q5FQd/ZCbAj7V2A.m', 'Daniil', 'Varshinov' );
 
 INSERT INTO USER_ROLE VALUES(1, 1, 1);
 INSERT INTO USER_ROLE VALUES(2, 2, 2);
