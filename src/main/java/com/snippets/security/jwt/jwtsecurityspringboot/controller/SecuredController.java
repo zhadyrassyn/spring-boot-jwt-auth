@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecuredController {
 
     @GetMapping("/admin")
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public String helloForAdmin() {
-        return "Access available for authenticated admin";
+        return "SUCCESS: Access available for authenticated admin";
     }
 
     @GetMapping("/user")
     @PreAuthorize("hasAuthority('USER')")
     public String helloForUser() {
-        return "Access available for authenticated user";
+        return "SUCCESS: Access available for authenticated user";
     }
 }

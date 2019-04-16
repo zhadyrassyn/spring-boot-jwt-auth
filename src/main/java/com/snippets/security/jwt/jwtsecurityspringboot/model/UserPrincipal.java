@@ -65,7 +65,7 @@ public class UserPrincipal implements UserDetails {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstsetUsernameName(String firstName) {
         this.firstName = firstName;
     }
 
